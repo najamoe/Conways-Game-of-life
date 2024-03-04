@@ -13,4 +13,4 @@ The game progresses in discrete steps, called generations. Each generation is de
 
 
 
-<img src="images/gameoflife.png" width="200" height="200">
+<img src="images/gameoflife.png" width="400" height="450">
