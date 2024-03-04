@@ -10,3 +10,6 @@ This repository contains an implementation of Conway's Game of Life written in j
 4. Reproduction: Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 The game progresses in discrete steps, called generations. Each generation is determined by applying the above rules simultaneously to every cell in the current generation.
+
+
+![Game of life](images/gameoflife.png)
