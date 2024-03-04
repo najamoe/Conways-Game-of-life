@@ -4,8 +4,10 @@ Conway's Game of Life is a classic cellular automaton devised by the mathematici
 
 This repository contains an implementation of Conway's Game of Life written in javascript. The game is played on a two-dimensional grid of cells, each of which can be in one of two states: alive or dead. The game follows four simple rules:
 
-Underpopulation: Any live cell with fewer than two live neighbors dies, as if by underpopulation.
-Survival: Any live cell with two or three live neighbors lives on to the next generation.
-Overpopulation: Any live cell with more than three live neighbors dies, as if by overpopulation.
-Reproduction: Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
-The initial pattern of live and dead cells is defined by the user or generated randomly. The game progresses in discrete steps, called generations. Each generation is determined by applying the above rules simultaneously to every cell in the current generation.
+1. Underpopulation: Any live cell with fewer than two live neighbors dies, as if by underpopulation.
+2. Survival: Any live cell with two or three live neighbors lives on to the next generation.
+3. Overpopulation: Any live cell with more than three live neighbors dies, as if by overpopulation.
+4. Reproduction: Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+5. 
+
+The game progresses in discrete steps, called generations. Each generation is determined by applying the above rules simultaneously to every cell in the current generation.
