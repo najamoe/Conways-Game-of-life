@@ -13,15 +13,14 @@ function start() {
 
 let intervalId;
 let grid;
-let cols = 20; // Number of columns
-let rows = 20; // Number of rows
+let cols = 20; 
+let rows = 20; 
 
 function setup() {
     grid = make2dArray(cols, rows);
     for (let i = 0; i < cols; i++) {
         for (let j = 0; j < rows; j++) {
-            grid[i][j] = Math.floor(Math.random() * 2); // Randomly initialize the grid
-        }
+            grid[i][j] = Math.floor(Math.random() * 2); 
     }
     drawGrid();
 }
@@ -125,6 +124,6 @@ function restart(){
     setup();
 }
 
-
+}
 
 
