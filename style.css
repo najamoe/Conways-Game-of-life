@@ -1,28 +1,18 @@
 body {
     background-color: white;
     color: black;
-
 }
 
-#board {
-    display: grid;
-    grid-template-columns: repeat(3, max-content);
-    gap: .5em;
-   align-items: center;
-   justify-content: center;
+#grid {
+    width: 600px;
+    /* Adjust this value to make the grid more square */
+    margin: 0 auto;
+    /* Center the grid horizontally */
 }
 
 .cell {
-    width: 64px;
-    aspect-ratio: 1/1;
-    font-size:  300%;
-
-    background-color: blanchedalmond;
-    border: 4px outset darkgrey;
-
-    cursor: pointer;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
 }
