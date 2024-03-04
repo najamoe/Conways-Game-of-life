@@ -50,6 +50,7 @@ function drawGrid() {
         }
     }
 }
+
 function nextGeneration() {
     let nextGrid = make2dArray(cols, rows);
 
@@ -99,6 +100,7 @@ function countNeighbors(grid, x, y) {
     sum -= grid[x][y];
     return sum;
 }
+
 
 function startGame() {
     clearInterval(intervalId); // Clear any existing intervals
